@@ -1,6 +1,7 @@
-<h1>ExpNo 3 : Implement Breadth First Search Traversal of a Graph</h1> 
-<h3>Name: Silambarasan K</h3>
-<h3>Register Number:212221230101</h3>
+<h1 align = center>ExpNo 3 : Implement Breadth First Search Traversal of a Graph</h1> 
+<h4>Name: Silambarasan K</h4>
+<h4>Register Number:212221230101</h4>
+<h4>Date : 23/02/2024
 <H3>Aim:</H3>
 <p>To Implement Breadth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>
@@ -18,33 +19,31 @@ Let us understand the working of the algorithm with the help of the following ex
 Step1: Initially queue and visited arrays are empty.
 </p>
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8acdebf8-ecc2-4d10-a208-45cce441f059)
-
+<img src="https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8acdebf8-ecc2-4d10-a208-45cce441f059" width='250' height='250'>
 
 Queue and visited arrays are empty initially.
 Step2: Push node 0 into queue and mark it visited.
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/0e9ce012-8e1f-43d7-b7b9-c0fb19fe0c3f)
+<img src="https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/0e9ce012-8e1f-43d7-b7b9-c0fb19fe0c3f" width='250' height='250'>
 
 
 Push node 0 into queue and mark it visited.
 Step 3: Remove node 0 from the front of queue and visit the unvisited neighbours and push them into queue.
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/67d8fa3b-ce9e-46c2-9dd7-089e204e667a)
+<img src="https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/67d8fa3b-ce9e-46c2-9dd7-089e204e667a" width='250' height='250'>
 
 Step 4: Remove node 1 from the front of queue and visit the unvisited neighbours and push them into queue.
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b0cf0fde-8a86-41cb-a054-36875ac24ab0)
+<img src="https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b0cf0fde-8a86-41cb-a054-36875ac24ab0" width='250' height='250'>
 
 Step 5: Remove node 2 from the front of queue and visit the unvisited neighbours and push them into queue.
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8968a163-6b3a-4f7e-8ad4-bbf24f326b9b)
+<img src="https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8968a163-6b3a-4f7e-8ad4-bbf24f326b9b" width='250' height='250'>
 
 Step 6: Remove node 3 from the front of queue and visit the unvisited neighbours and push them into queue. 
 As we can see that every neighbours of node 3 is visited, so move to the next node that are in the front of the queue.
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/7a1c1b16-ea69-497f-a099-8440200f6dc0)
-
+<img src="https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/7a1c1b16-ea69-497f-a099-8440200f6dc0" width='250' height='250'>
 Steps 7: Remove node 4 from the front of queue and visit the unvisited neighbours and push them into queue. 
 As we can see that every neighbours of node 4 are visited, so move to the next node that is in the front of the queue.
 
